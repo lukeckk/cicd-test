@@ -6,6 +6,20 @@ name: Node.js CI
 on: push
 
 jobs:
+  # run esline ( npm run lint )
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 22.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22.x
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run lint
+
+  # run jest-testing ( npm run test )
   test:
     runs-on: ubuntu-latest
     steps:

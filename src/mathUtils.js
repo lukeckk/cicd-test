@@ -13,6 +13,7 @@ export function factorial(n) {
     return result;
 }
 
+
 /**
  * Computes the summation of numbers from 1 to n.
  * 
