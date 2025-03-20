@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1742443388739" clover="3.2.0">
-  <project timestamp="1742443388740" name="All files">
+<coverage generated="1742444752147" clover="3.2.0">
+  <project timestamp="1742444752147" name="All files">
     <metrics statements="188" coveredstatements="188" conditionals="46" coveredconditionals="44" methods="13" coveredmethods="13" elements="247" coveredelements="245" complexity="0" loc="188" ncloc="188" packages="1" files="3" classes="3"/>
     <file name="calculator.js" path="/Users/lukecheng/Desktop/All Files/ALL SDEV RELATED/SDEV/BAS/Cloud Application/cicd-test/src/calculator.js">
       <metrics statements="49" coveredstatements="49" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
